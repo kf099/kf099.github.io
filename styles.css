@@ -10,7 +10,7 @@ body {
     font-family: 'Exo', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 28px;
     letter-spacing: 1.2px;
-    color: #1c1d18;
+    color: #f1f1f1;
 }
 .nav-list {
     list-style-type:none;
@@ -29,6 +29,20 @@ a:hover {
 }
 .break-line {
     margin:1em auto 1em auto;
-    height: 1.1px;
-    background-color: rgba(228, 228, 228, 0.773)
+    height:1.1px;
+    background-color:rgba(228, 228, 228, 0.773)
+}
+.center-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width: auto;
+}
+.center-container-800 {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    max-width: 800px;
+    margin:auto;
 }
