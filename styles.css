@@ -4,3 +4,31 @@ Author: Kouta Frank
 Date: 12/11/23
 Filename: styles.css
 */
+
+body {
+    background-color:rgb(8, 14, 24);
+    font-family: 'Exo', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.2px;
+    color: #1c1d18;
+}
+.nav-list {
+    list-style-type:none;
+    margin:auto;
+}
+.url-style {
+    text-decoration:none;
+    color:rgba(228, 228, 228, 0.773);
+}
+.url-selected {
+    text-decoration:none;
+    color:#ffce00;
+}
+a:hover {
+    color:#ffffff;
+}
+.break-line {
+    margin:1em auto 1em auto;
+    height: 1.1px;
+    background-color: rgba(228, 228, 228, 0.773)
+}
